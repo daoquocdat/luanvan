@@ -5,7 +5,7 @@ const router = express.Router()
 
 const truyensController = require('../app/controllers/TruyensController')
 
-router.get('/:slug', truyensController.show)
+//router.get('/:slug', truyensController.show)
 router.get('/', truyensController.index)
 
 

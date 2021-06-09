@@ -1,0 +1,12 @@
+<form action="/admin/manga/:slug/addChap" method="POST" enctype="multipart/form-data">
+    <h2>{{truyen.tentruyen}}</h2>
+    <div>
+        <label for="chapter">Tên chap: </label>
+        <input type="text" placeholder="Vd: chap01" name="chapter" multiple>    
+    </div>
+    <div>
+        <label for="imgOfManga">Hình ảnh trong chapter: </label>
+        <input type="file" name="imgOfManga">
+    </div>
+    <input type="submit" value="Thêm">
+</form>
