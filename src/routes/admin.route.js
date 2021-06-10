@@ -41,5 +41,5 @@ router.get('/manga', adminController.manga)
 //Index admin
 router.get('/', adminController.index)
 
-
+router.get('/test', adminController.tam)
 module.exports = router
